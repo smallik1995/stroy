@@ -31,7 +31,7 @@ function prod(done) {
   .pipe( gulp.dest('./dist/img/') );
 
   gulp.src('./src/fonts/**/*')
-  .pipe( gulp.dest('./dist/fotns/') );
+  .pipe( gulp.dest('./dist/fonts/') );
 
   gulp.src('./src/plagins/**/*')
   .pipe( gulp.dest('./dist/plagins/') );
@@ -42,7 +42,7 @@ function prod(done) {
 
 // development
 function dev(done) {
-  gulp.src('./src/scss/**/*.scss')
+  gulp.src('./src/scss/*.scss')
   .pipe(sourcemaps.init())
   .pipe( sass({
     errorLogToConsole: true
@@ -58,8 +58,8 @@ function dev(done) {
 
 // slick
 function slick(done) {
-  gulp.src('./src/modules/slick/**/*')
-  .pipe( gulp.dest('./dist/plagins/slick') );
+  gulp.src('./modules/slick/**/*')
+  .pipe( gulp.dest('./src/plagins/slick/') );
 
   done();
 }
@@ -67,8 +67,8 @@ function slick(done) {
 
 // fontAwesome
 function fontAwesome(done) {
-  gulp.src('./src/modules/fontAwesome/**/*')
-  .pipe( gulp.dest('./dist/plagins/font-awesome') );
+  gulp.src('./modules/font-awesome/**/*')
+  .pipe( gulp.dest('./src/plagins/font-awesome/') );
 
   done();
 }
@@ -76,7 +76,7 @@ function fontAwesome(done) {
 
 //jQvery
 function jQvery(done) {
-  gulp.src('./modules/jQvery/*')
+  gulp.src('./modules/jqvery/*')
   .pipe( gulp.dest('./src/js/') );
 
   done();
@@ -86,15 +86,15 @@ function jQvery(done) {
 // fonts
 
 // function _name_(done) {
-//   gulp.src('./src/modules/fonts/_name_/**/*')
-//   .pipe( gulp.dest('./dist/fonts/_name_') );
+//   gulp.src('./modules/fonts/_name_/**/*')
+//   .pipe( gulp.dest('./src/fonts/_name_') );
 //
 //   done();
 // }
 
 function openSans(done) {
-  gulp.src('./src/modules/fonts/open_sans/**/*')
-  .pipe( gulp.dest('./dist/fonts/open_sans/') );
+  gulp.src('./modules/fonts/open_sans/**/*')
+  .pipe( gulp.dest('./src/fonts/open_sans/') );
 
   done();
 }
