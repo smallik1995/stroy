@@ -8,7 +8,6 @@ const browserSync = require('browser-sync').create();
 // production
 function prod(done) {
   gulp.src('./src/scss/index.scss')
-  .pipe(sourcemaps.init())
   .pipe( sass({
     errorLogToConsole: true
   }) )
@@ -21,7 +20,7 @@ function prod(done) {
   .pipe( sourcemaps.write('./') )
   .pipe( gulp.dest('./dist/css/') );
 
-  gulp.src('./src/index.html')
+  gulp.src('./src/*.html')
   .pipe( gulp.dest('./dist/') );
 
   gulp.src('./src/js/**/*')
@@ -85,16 +84,23 @@ function jQvery(done) {
 
 // fonts
 
-// function _name_(done) {
-//   gulp.src('./modules/fonts/_name_/**/*')
-//   .pipe( gulp.dest('./src/fonts/_name_') );
-//
-//   done();
-// }
-
 function openSans(done) {
   gulp.src('./modules/fonts/open_sans/**/*')
   .pipe( gulp.dest('./src/fonts/open_sans/') );
+
+  done();
+}
+
+function montserrat(done) {
+  gulp.src('./modules/fonts/montserrat/**/*')
+  .pipe( gulp.dest('./src/fonts/montserrat/') );
+
+  done();
+}
+
+function recoleta(done) {
+  gulp.src('./modules/fonts/recoleta/**/*')
+  .pipe( gulp.dest('./src/fonts/recoleta/') );
 
   done();
 }
@@ -144,3 +150,5 @@ gulp.task(jQvery);
 gulp.task(fontAwesome);
 
 gulp.task(openSans);
+gulp.task(montserrat);
+gulp.task(recoleta);

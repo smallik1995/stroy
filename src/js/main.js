@@ -1,0 +1,3 @@
+$('.slick').slick({
+  rtl: true
+});
