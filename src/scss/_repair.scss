@@ -1,0 +1,66 @@
+.repair {
+  padding-top: 150px;
+  padding-bottom: 140px;
+  & + .jobs-slider {
+    margin-top: -20px;
+    margin-bottom: 170px;
+  }
+  & h2 {
+    margin-bottom: 75px;
+  }
+  & .row {
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 45px;
+  }
+  &-box {
+    margin-bottom: 40px;
+    width: calc(25% - 25px);
+    margin-right: 100px;
+    &:last-of-type {
+      margin-right: 0;
+      & .repair-box-head:after {
+        display: none;
+      }
+    }
+    &-head {
+      width: 90px;
+      height: 90px;
+      position: relative;
+      display: flex;
+      margin-bottom: 40px;
+      & > img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        display: block;
+        margin: auto auto 0 0;
+      }
+      & > span {
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        border: 1px solid #009EE3;
+        box-sizing: border-box;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        right: -15px;
+        text-align: center;
+      }
+      &:after {
+        content: url(./../img/arrow-right.svg);
+        position: absolute;
+        right: calc(-100% - 133px);
+        top: 50%;
+      }
+    }
+    & > p {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+}

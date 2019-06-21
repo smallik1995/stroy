@@ -1,0 +1,63 @@
+.banner {
+  background: url(./../img/banner1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center -65px;
+  padding-top: 145px;
+  & h1 {
+    margin-bottom: 50px;
+  }
+  &-text {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px;
+    display: block;
+    &:last-of-type {
+      margin-bottom: 55px;
+    }
+    &::before {
+      margin-right: 10px;
+      position: relative;
+      top: 3px;
+    }
+    &--cost::before {
+      content: url('./../img/cost.svg');
+    }
+    &--installment::before {
+      content: url('./../img/installment.svg');
+    }
+    &--guarantee::before {
+      content: url('./../img/guarantee.svg');
+    }
+  }
+  & button {
+    margin-bottom: 175px;
+  }
+  &-discount {
+    background: #2F2483;
+    border-radius: 60px;
+    padding: 0 195px 0 235px;
+    display: flex;
+    align-items: center;
+    &-num {
+      color: #fff;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 59px;
+      transform: skew(-15deg);
+      background: #009EE3;
+      padding: 30.5px;
+      margin-right: 70px;
+      width: 130px;
+      & > span {
+        transform: skew(15deg);
+        display: block;
+      }
+    }
+    & > span {
+      max-width: 665px;
+      font-size: 24px;
+      line-height: 120%;
+      color: #fff;
+    }
+  }
+}

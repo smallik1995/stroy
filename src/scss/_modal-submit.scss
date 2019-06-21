@@ -1,0 +1,26 @@
+.content-accept {
+  background: #ECF3F7;
+  border-radius: 30px;
+  padding: 70px 40px 85px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  min-width: 860px;
+  & h2 {
+    margin-bottom: 15px;
+  }
+  & p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 40px;
+  }
+}
+
+.close-btn-accept {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    &:hover {
+      cursor: pointer;
+    }
+}

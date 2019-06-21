@@ -1,0 +1,15 @@
+.accomplishment-list {
+  padding-top: 55px;
+  padding-bottom: 30px;
+  & + .jobs-slider {
+    margin-bottom: 150px;
+  }
+  & h2 {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  & .num-list li{
+    margin-bottom: 60px;
+    max-width: 900px;
+  }
+}

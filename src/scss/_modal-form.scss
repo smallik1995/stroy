@@ -1,0 +1,69 @@
+.calculations_form--modal {
+  border-radius: 30px;
+  background: #fff;
+  padding: 60px 165px 70px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  .checkbox {
+    & a {
+      color: #000;
+      &:hover {
+        color: #009EE3;
+      }
+    }
+    & input {
+      &:checked + label::before {
+        content: url('./../img/form/checkbox-checked-modal.svg');
+      }
+    }
+    & label {
+      &::before {
+        content: url('./../img/form/checkbox-modal.svg');
+      }
+    }
+  }
+  ul.dropDown {
+    border-color: #009EE3;
+    background: #fff;
+    & li{
+      &:first-of-type:after {
+        background: #009EE3;
+      }
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+  h2 {
+    margin-bottom: 60px;
+  }
+  & .input-default {
+    border-color: #009EE3;
+    color: #000;
+    &::-webkit-input-placeholder {
+      color: #000;
+    }
+    &[type='text'] {
+      background: url('./../img/form/name-modal.svg') 20px 15px no-repeat;
+    }
+    &[type='tel'] {
+      background: url('./../img/form/tel-modal.svg') 20px 15px no-repeat;
+    }
+    div &{
+      background: url('./../img/form/location-modal.svg') 20px 15px no-repeat;
+    }
+  }
+}
+
+.close-btn-form {
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    :hover {
+      cursor: pointer;
+    }
+}

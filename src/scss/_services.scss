@@ -1,0 +1,46 @@
+.services {
+  padding-top: 180px;
+  padding-bottom: 40px;
+  & h2 {
+    margin-bottom: 15px;
+  }
+  &-box {
+    margin: auto;
+    transition: all .3s;
+    & h4 {
+      transition: all .3s;
+      &::after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 2px;
+        background: #transparent;
+        margin: auto;
+        border-radius: 50px;
+        position: relative;
+        top: 15px;
+      }
+    }
+    &:hover {
+      cursor: pointer;
+      transform: translateY(-10px);
+      & h4 {
+        color: #2F2483;
+        &::after {
+          background: #2F2483;
+        }
+      }
+    }
+    &-pic {
+      height: auto;
+      width: 100%;
+      max-width: 275px;
+      margin: auto auto 10px;
+      & img{
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

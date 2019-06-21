@@ -4,12 +4,14 @@ const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
 const browserSync = require('browser-sync').create();
+const normalizeScss = require('node-normalize-scss');
 
 // production
 function prod(done) {
   gulp.src('./src/scss/index.scss')
   .pipe( sass({
-    errorLogToConsole: true
+    errorLogToConsole: true,
+    includePaths: normalizeScss.includePaths
   }) )
   .on('error', console.error.bind(console))
   .pipe( autoprefixer({
@@ -44,7 +46,8 @@ function dev(done) {
   gulp.src('./src/scss/*.scss')
   .pipe(sourcemaps.init())
   .pipe( sass({
-    errorLogToConsole: true
+    errorLogToConsole: true,
+    includePaths: normalizeScss.includePaths
   }) )
   .on('error', console.error.bind(console))
   .pipe( rename('style.css') )

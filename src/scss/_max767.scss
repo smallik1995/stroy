@@ -1,0 +1,294 @@
+@media (max-width: 767px) {
+  .row-span {
+    flex-direction: column;
+  }
+
+  .row-span > span:first-of-type {
+    width: 100%;
+  }
+
+  .row-span > span:last-of-type {
+    width: 100%;
+  }
+
+  .row-span > span {
+    font-size: 14px;
+  }
+  .btn-mobile {
+    display: block;
+    box-sizing: border-box;
+    padding: 32px 100px 34px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    width: calc(100% + 60px);
+    display: block;
+    background: #2F2483;
+    margin-left: -30px;
+    margin-bottom: -30px;
+    text-decoration: none;
+  }
+  .header-tel {
+    display: none;
+  }
+  .tel-mobile {
+    display: inline-block;
+  }
+
+  .header-btn {
+    display: none;
+  }
+
+  .header-logo > img {
+    height: 22px;
+  }
+
+  .header > .container {
+    padding: 22px 30px;
+    padding: 22px 15px;
+    box-sizing: border-box;
+  }
+
+  nav.container {
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    z-index: 999;
+    padding: 25px 30px;
+    overflow: auto;
+    top: 77px;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+  }
+
+  header + * {
+    margin-top: 77px;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .navbar-menu a {
+    padding: 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .navbar-menu li {
+    margin-bottom: 20px;
+  }
+
+  .banner {
+    background: url(./../img/banner-mobile.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .banner h1 {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .banner {
+    padding-top: 35px;
+  }
+
+  .banner-text {
+    padding-left: 50px;
+    padding-right: 35px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  .banner-text:last-of-type {
+    margin-bottom: 40px;
+  }
+
+  .banner button {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .banner-discount {
+    display: none;
+  }
+
+  .additional-box {
+    width: calc(50% - 40px);
+  }
+
+  .additional .row {
+    padding-bottom: 20px;
+  }
+
+  .input-group {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .input-default {
+    width: calc(50% - 20px);
+  }
+
+  div.input-default {
+    width: calc(100% - 20px);
+  }
+
+  .calculations_form, .calculations_form--modal {
+    padding: 15px 25px 20px;
+    margin-bottom: 30px;
+  }
+
+  .checkbox label {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .review {
+    display: none;
+  }
+
+  .questions h2 {
+    margin-bottom: 20px;
+  }
+
+  .footer-content--half {
+    padding: 0 10px;
+    width: calc(50% - 20px);
+    margin-bottom: 0;
+  }
+
+  .footer-content--half h3 {
+    font-size: 18px;
+  }
+
+  .location::before {
+    margin-right: 10px;
+  }
+
+  .tel::before {
+    margin-right: 10px;
+  }
+
+  .mail::before {
+    margin-right: 10px;
+  }
+
+  .footer-content {
+    align-items: center;
+  }
+  .menu {
+    display: block;
+    position: relative;
+    height: 16px;
+    width: 14px;
+  }
+  .article-text {
+    width: calc(100% - 30px);
+    margin: auto;
+  }
+
+  .article-row {
+    flex-direction: column-reverse;
+  }
+
+  .jobs-slider {
+    display: none;
+  }
+  .article-pic {
+    width: 60%;
+    margin: auto;
+  }
+  .repair-box-head:after {
+    right: calc(-100% - 10px);
+  }
+  .price_banner-slider-item--text h2 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .price_banner-slider-item--text button {
+    font-size: 10px;
+  }
+
+  .price_banner-slider-item {
+    border-radius: 10px;
+  }
+
+  .price_banner-slider .slick-dots {
+    bottom: 35px;
+  }
+
+  .price_banner-slider .slick-dots li {
+    margin: 0 3px;
+  }
+
+  .price_banner-slider .slick-dots li button:before {
+    font-size: 10px;
+  }
+
+  .price_banner-slider .next.slick-arrow {
+    height: 25px;
+  }
+
+  .price_banner-slider .prev.slick-arrow {
+    height: 25px;
+  }
+
+  .price-box--blue {
+    width: calc(100% - 40px);
+    margin-bottom: 15px;
+  }
+  .jobs-banner-box h2 {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .jobs-banner-box {
+    flex-wrap: wrap;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .jobs-banner-box button {
+    margin: auto;
+  }
+
+  .jobs-box {
+    width: calc(50% - 30px);
+  }
+  .contacts-docs-box {
+    width: calc(100% - 40px);
+    margin-bottom: 15px;
+  }
+  .reviews-box {
+    width: calc(50% - 30px);
+  }
+  .reviews-head-title {
+    flex-wrap: wrap;
+  }
+
+  .reviews-head-title button {
+    margin: auto;
+  }
+
+  .reviews-head-title h2 {
+    margin-bottom: 15px;
+  }
+}

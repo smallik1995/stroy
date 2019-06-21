@@ -1,0 +1,325 @@
+@media (max-width: 1439px) {
+  .header-logo > img {
+    height: 40px;
+    margin-right: 30px;
+  }
+
+  .header-title {
+    max-width: 250px;
+  }
+
+  .header-btn {
+    padding: 10px 15px;
+  }
+
+  .banner-discount-num {
+    white-space: nowrap;
+  }
+
+  .banner-discount {
+    padding: 0 95px;
+  }
+
+  .banner {
+    padding-top: 75px;
+  }
+
+  .banner button {
+    margin-bottom: 85px;
+  }
+
+  .services {
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+
+  .additional {
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+
+  .additional-box {
+    width: calc(33.33% - 40px);
+  }
+
+  .additional .row {
+    justify-content: space-around;
+  }
+
+  .advantage-box-content--left {
+    width: 50%;
+    align-items: center;
+  }
+
+  .advantage-box-content--right {
+    width: 50%;
+  }
+
+  .advantage-box-content h2:before {
+    left: -30px;
+  }
+
+  .input-default {
+    width: calc(50% - 40px);
+    margin: 0 auto 30px;
+  }
+
+  .calculations_form, .calculations_form--modal{
+    padding: 50px 100px 60px;
+    margin-bottom: 60px;
+  }
+
+  .calculations_form h2 > br, .calculations_form--modal h2 > br {
+    display: none;
+  }
+
+  .advantage {
+    padding-top: 60px;
+    margin-bottom: 80px;
+  }
+
+  .review {
+    padding: 40px 0;
+  }
+
+  .questions {
+    padding: 40px 0;
+  }
+
+  .questions-box {
+    max-width: 800px;
+  }
+
+  main {
+    padding: 0 0 100px;
+  }
+
+  .btn-wrapp > button:after {
+    width: 270px;
+    left: calc(150% - 40px);
+  }
+
+  .btn-wrapp > button:before {
+    width: 270px;
+    left: calc(-50% + 40px);
+  }
+
+  .prev.slick-arrow {
+    left: -7.5px;
+    top: calc(50% - 15px);
+  }
+
+  .next.slick-arrow {
+    right: -7.5px;
+    top: calc(50% - 15px);
+  }
+
+  .navbar-menu a {
+    white-space: nowrap;
+    font-size: 16px;
+  }
+
+  .breadcrumb {
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+
+  .article-text {
+    width: calc(55% - 40px);
+  }
+
+  .article-pic {
+    width: calc(45% - 40px);
+  }
+
+  .article + .additional {
+    padding-top: 75px;
+    margin-bottom: 75px;
+  }
+
+  .additional + .article {
+    margin-bottom: 55px;
+  }
+
+  .materials-info h2 {
+    margin-bottom: 50px;
+  }
+
+  .materials-info .article {
+    margin-bottom: 50px;
+  }
+
+  .materials-info-banner {
+    margin-bottom: 0;
+  }
+
+  .materials-info-box {
+    margin-bottom: 50px;
+  }
+
+  .materials-info-box-col img {
+    width: auto;
+    height: auto;
+  }
+
+  .jobs-slider h2 {
+    margin-bottom: 45px;
+  }
+
+  .slick-slide img {
+    max-width: 100%;
+  }
+
+  .jobs-slider-wrapper {
+    margin-bottom: 40px;
+  }
+
+  .article-text .cash {
+    margin-bottom: 45px;
+  }
+
+  .repair {
+    padding-top: 75px;
+    padding-bottom: 70px;
+  }
+
+  .repair-box-head:after {
+    right: calc(-100% - 50px);
+  }
+
+  .repair .row {
+    padding-bottom: 0;
+  }
+
+  .repair + .jobs-slider {
+    margin-bottom: 85px;
+  }
+
+  .num-list li h3 {
+    margin-bottom: 20px;
+  }
+
+  .accomplishment-list .num-list li {
+    margin-bottom: 40px;
+    max-width: 760px;
+    padding-left: 80px;
+  }
+
+  .accomplishment-list {
+    padding-bottom: 0;
+  }
+
+  .accomplishment-list + .jobs-slider {
+    margin-bottom: 75px;
+  }
+
+  .price_banner-slider-item--text h2 {
+    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .price_banner-slider-item--right_text {
+    right: 100px;
+  }
+
+  .price_banner {
+    margin-bottom: 40px;
+  }
+
+  .price_discription h2 {
+    max-width: 760px;
+    margin-bottom: 50px;
+  }
+
+  .price-box--blue {
+    padding: 25px;
+  }
+
+  .price-box {
+    padding-right: 0;
+  }
+
+  .price_discription + .additional {
+    padding-top: 50px;
+  }
+
+  .recommendation-box {
+    padding: 25px;
+  }
+
+  .recommendation-discription h2:before {
+    left: -30px;
+  }
+
+  .recommendation {
+    padding-top: 25px;
+    margin-bottom: 60px;
+  }
+
+  .recommendation + .article {
+    margin-bottom: 45px;
+  }
+
+  .jobs-banner-box button {
+    white-space: nowrap;
+  }
+
+  .jobs-banner-box h2 {
+    max-width: 50%;
+  }
+
+  .jobs-banner-box {
+    padding: 25px 35px;
+  }
+
+  .jobs-banner {
+    margin-bottom: 50px;
+  }
+
+  .jobs-box {
+    margin-bottom: 40px;
+  }
+
+  .pagination {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .map h1 {
+    margin-bottom: 40px;
+  }
+
+  .map {
+    margin-bottom: 40px;
+  }
+
+  .contacts-aside {
+    padding: 25px 30px;
+    flex: 1 0 300px;
+  }
+
+  .contacts {
+    margin-bottom: 40px;
+  }
+
+  .contacts-docs {
+    margin-bottom: 50px;
+  }
+
+  .reviews-head h1 {
+    margin-bottom: 40px;
+  }
+
+  .reviews-head-title h2 {
+    max-width: 700px;
+  }
+
+  .reviews-head {
+    margin-bottom: 40px;
+  }
+
+  .reviews-box {
+    margin-bottom: 40px;
+  }
+}

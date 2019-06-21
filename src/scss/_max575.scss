@@ -1,0 +1,148 @@
+@media (max-width: 575px){
+  .services-box {
+    width: auto;
+    max-width: 100%;
+  }
+
+  .additional-box {
+    width: 100%;
+    max-width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .additional .row {
+    justify-content: normal;
+  }
+
+  .btn-wrapp > button:before {
+    display: none;
+  }
+
+  .btn-wrapp > button:after {
+    display: none;
+  }
+
+  .advantage-box-content {
+  }
+
+  .advantage-box-content--left {
+    width: 100%;
+  }
+
+  .advantage-box-content--right {
+    width: 100%;
+  }
+
+  .advantage-box {
+    flex-wrap: wrap;
+  }
+
+  .advantage-box-content img {
+    display: none;
+  }
+
+  .input-default {
+    width: calc(100% - 20px);
+  }
+
+  .footer-content--half {
+    width: 100%;
+  }
+
+  .footer-content {
+    flex-direction: column-reverse;
+  }
+
+  .footer-content a {
+    margin-bottom: 15px;
+  }
+
+  .copy {
+    text-align: center;
+    line-height: 20px;
+  }
+  .article-container {
+    box-sizing: border-box;
+  }
+
+  .materials-info-box-col {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .materials-info-banner {
+    border-radius: 10px;
+  }
+
+  .materials-info-banner img {
+    border-radius: 10px;
+  }
+  .article-pic {
+    width: 80%;
+    border-radius: 10px;
+  }
+  .repair-box {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 270px;
+  }
+  .price_banner-slider {
+    display: none;
+  }
+  .jobs-box {
+    width: 100%;
+    max-width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .jobs-container {
+    box-sizing: border-box;
+  }
+
+  .pagination a {
+    margin-bottom: 10px;
+  }
+  .contacts-info {
+    width: calc(100% - 30px);
+  }
+  .reviews-container {
+    box-sizing: border-box;
+  }
+
+  .reviews-box {
+    width: calc(100% - 30px);
+  }
+
+  .reviews-row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .repair-box-head > span {
+    display: none;
+  }
+
+  .repair-box-head:after {
+    display: none;
+  }
+
+  .repair-box-head {
+    margin: 0 auto 20px;
+  }
+
+  .repair-box > p {
+    text-align: center;
+  }
+
+  .repair-box-head > img {
+    margin: auto auto 0;
+  }
+
+  .repair-box:last-of-type {
+    margin-right: auto;
+  }
+  .repair h2 {
+    margin-bottom: 30px;
+  }
+}

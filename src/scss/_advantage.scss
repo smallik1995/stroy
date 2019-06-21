@@ -1,0 +1,58 @@
+.advantage {
+  padding-top: 120px;
+  margin-bottom: 160px;
+  &-box {
+    display: flex;
+    margin-bottom: 35px;
+    &-content {
+      margin: auto;
+      font-size: 18px;
+      line-height: 27px;
+      display: flex;
+      flex-wrap: wrap;
+      & a{
+        color: #009EE3;
+        margin-top: -30px;
+        display: block;
+        transition: all .3s;
+        &:hover {
+          color: #2F2483;
+        }
+      }
+      & > div {
+        max-width: 550px;
+      }
+      & img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        margin: auto;
+      }
+      &--right {
+        width: 40%;
+      }
+      &--left {
+        width: 60%;
+        & > * {
+          margin: auto;
+        }
+      }
+      & h2 {
+        text-align: left;
+        margin-bottom: 35px;
+        position: relative;
+        &:before {
+          content: url(./../img/advantage/arrow-before.svg);
+          position: absolute;
+          left: -45px;
+          top: 0;
+        }
+      }
+      & p{
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
